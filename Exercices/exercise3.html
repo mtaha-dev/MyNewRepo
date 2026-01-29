@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+
+            font-family: Arial;
+        }
+        .container{
+
+            display: flex;
+            gap: 5px;
+            margin: 10px
+        }
+        .firstsecond-input{
+
+            width: 100px;
+            margin: 0px;
+            padding: 10px 25px;
+            font-size: large;
+            border-radius: 10px;
+            border: 1px solid rgb(96, 96, 96);
+        }
+        .Third-input{
+            
+            display: block;
+            width: 255px;
+            margin: 10px;
+            padding: 10px 25px;
+            font-size: large;
+            border-radius: 10px;
+            border: 1px solid rgb(96, 96, 96);
+        }
+        .Sign-up{
+
+            width: 305px;
+            background-color: rgb(29, 155, 240);
+            color: white;
+            font-size: 25px;
+            margin-left: 10px;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            transition: background-color 0.20s, opacity 0.15s;
+        }
+        .Sign-up:hover{
+
+            background-color: rgb(28, 139, 214);
+            cursor: pointer
+        }
+        .Sign-up:active{
+
+            opacity: 0.9;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <input class="firstsecond-input" type="text" placeholder="First name">
+        <input class="firstsecond-input" type="text" placeholder="Last name">
+    </div>
+    <input class="Third-input" type="email" placeholder="Email">
+
+
+    <button class="Sign-up">
+        Sign Up
+    </button>
+
+</body>
+</html>
